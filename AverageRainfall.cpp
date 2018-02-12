@@ -12,7 +12,7 @@ void confirmMonth(string month, string array[]);
 
 int main()
 {
-	//Array of common month formats
+	//initialize string array of common month formats
 	string months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
 	//declare months
