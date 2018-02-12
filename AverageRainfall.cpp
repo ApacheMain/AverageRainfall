@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <cstdlib>
 using namespace std;
 
 //define function "confirmMonth"
@@ -73,5 +74,6 @@ void confirmMonth(string month, string array[])
 	else
 	{
 		cout << "Please enter correct month format. (i.e. Jan or January)" << endl; //stops program with error message
+		exit (EXIT_FAILURE);
 	}
 }
