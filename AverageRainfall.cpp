@@ -68,10 +68,10 @@ void confirmMonth(string month, string array[])
 	}
 	if (flag)
 	{
-		cout << "Enter rainfall for " << month << ": ";
+		cout << "Enter rainfall for " << month << ": "; //prompts user to enter rainfall for month entered
 	}
 	else
 	{
-		cout << "Please enter correct month format. (i.e. Jan or January)" << endl;
+		cout << "Please enter correct month format. (i.e. Jan or January)" << endl; //stops program with error message
 	}
 }
