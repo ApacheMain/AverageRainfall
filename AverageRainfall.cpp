@@ -1,3 +1,7 @@
+//****************************************************************************//
+//This is the program I wrote for the "Average Rainfall" problem in Chapter 3.//
+//                             ComSci 1436                                    //
+//****************************************************************************//
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -39,12 +43,12 @@ int main()
 	cin >> month3;
 	confirmMonth(month3, months);
 	cin >> rain3;
-
-
-
+	
+	//print the average rainfall for the three months, rounded to the nearest hundredth
 	cout << "The average rainfall for " << month1 << ", " << month2 << ", and " << month3 << " is " << setprecision(2) << fixed << (rain1 + rain2 + rain3) / 3 << " inches." << endl;
 	return 0;
 }
+
 
 
 //this function will compare user input to an array to insure correct formatting of the months.
